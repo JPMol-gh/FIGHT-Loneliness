@@ -5,6 +5,145 @@
   <title>FIGHT Loneliness</title>
   <meta name="description" content="FIGHT Loneliness – Tips, tools en community tegen eenzaamheid in NL.">
   <style>
+    body { margin:0; font-family: Arial, sans-serif; line-height:1.6; color:#333; background:#fff; }
+    img { max-width:100%; display:block; }
+    a { color:#0066cc; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    nav { display:flex; justify-content:space-between; align-items:center; padding:1rem; background:#f8f8f8; box-shadow:0 2px 5px rgba(0,0,0,0.1); position:sticky; top:0; z-index:100; }
+    nav .menu { display:flex; flex-wrap:wrap; gap:1rem; }
+    nav .lang button { margin-left:0.5rem; cursor:pointer; border:none; background:none; font-size:1rem; }
+    .lang-active { font-weight:bold; }
+    .hero { display:flex; align-items:center; justify-content:center; background:linear-gradient(to right, #e0f7fa, #ffffff); padding:4rem 1rem; text-align:center; }
+    .hero h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+    .hero p { font-size:1.2rem; margin-bottom:1rem; }
+    .hero a.cta { display:inline-block; background:#00796b; color:#fff; padding:0.75rem 1.5rem; border-radius:4px; transition:background 0.3s; }
+    .hero a.cta:hover { background:#004d40; }
+    main { max-width:960px; margin:2rem auto; padding:0 1rem; }
+    section { margin-bottom:3rem; }
+    section h2 { border-bottom:2px solid #00796b; padding-bottom:0.5rem; margin-bottom:1rem; }
+    .tips-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:1.5rem; }
+    article { background:#f9f9f9; padding:1rem; border-radius:8px; box-shadow:0 2px 5px rgba(0,0,0,0.05); transition:transform 0.3s; }
+    article:hover { transform:translateY(-4px); }
+    footer { background:#f1f1f1; padding:2rem 1rem; text-align:center; font-size:0.9rem; color:#666; }
+    .contact-form { max-width:600px; margin:0 auto; display:flex; flex-direction:column; gap:1rem; }
+    .contact-form input, .contact-form textarea { padding:0.75rem; border:1px solid #ccc; border-radius:4px; font-size:1rem; }
+    .contact-form button { background:#00796b; color:#fff; border:none; padding:0.75rem; border-radius:4px; font-size:1rem; cursor:pointer; transition:background 0.3s; }
+    .contact-form button:hover { background:#004d40; }
+    .lang-nl, .lang-en, .lang-ja { display:none; }
+    .lang-nl.active, .lang-en.active, .lang-ja.active { display:block; }
+  </style>
+</head>
+<body><nav>
+  <div class="logo">🌟 FIGHT Loneliness</div>
+  <div class="menu">
+    <a href="#waarom">Home</a>
+    <a href="#tips">Tips</a>
+    <a href="#wetenschap">Wetenschap</a>
+    <a href="#lokale">Lokale initiatieven</a>
+    <a href="#getuigenissen">Getuigenissen</a>
+    <a href="#agenda">Agenda</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="lang">
+    <button id="kl_nl" class="lang-active">NL</button>
+    <button id="kl_en">EN</button>
+    <button id="kl_ja">JA</button>
+  </div>
+</nav><header class="hero lang-nl active">
+  <div>
+    <h1>FIGHT Eenzaamheid</h1>
+    <p>Tips, tools en community om eenzaamheid te bestrijden.</p>
+    <a href="#tips" class="cta">Ontdek tips</a>
+  </div>
+</header>
+<header class="hero lang-en">
+  <div>
+    <h1>FIGHT Loneliness</h1>
+    <p>Tips, tools and community to fight loneliness.</p>
+    <a href="#tips" class="cta">Discover tips</a>
+  </div>
+</header>
+<header class="hero lang-ja">
+  <div>
+    <h1>孤独を克服しよう</h1>
+    <p>孤独に立ち向かうためのヒント、ツール、コミュニティ。</p>
+    <a href="#tips" class="cta">ヒントを見る</a>
+  </div>
+</header><main>
+  <section id="waarom">
+    <h2>Waarom eenzaamheid aanpakken?</h2>
+    <p class="lang-nl active">Eenzaamheid heeft grote impact op gezondheid en welzijn. Deze site biedt oplossingen.</p>
+    <p class="lang-en">Loneliness greatly affects health and wellbeing. This site offers solutions.</p>
+    <p class="lang-ja">孤独は健康と幸福に大きな影響を与えます。このサイトでは解決策をご紹介します。</p>
+  </section>  <section id="tips">
+    <h2>Tips</h2>
+    <div class="tips-grid">
+      <article>
+        <h3>1. Begin klein</h3>
+        <p>Stuur een berichtje naar een oud‑collega of buurman om weer contact te leggen.</p>
+      </article>
+      <article>
+        <h3>2. Sluit je aan</h3>
+        <p>Word lid van een sportclub, buurtgroep (Hoplr, Buurtwijs) of taalcafé.</p>
+      </article>
+      <article>
+        <h3>3. Vrijwilligerswerk</h3>
+        <p>Helpen geeft voldoening én verbindt je met anderen.</p>
+      </article>
+      <article>
+        <h3>4. Gespreksstarters</h3>
+        <p>Vraagtips: “Hoe was je dag?”, “Wat bezighoudt jou nu?”.</p>
+      </article>
+    </div>
+  </section>  <section id="wetenschap">
+    <h2>Wetenschap</h2>
+    <p>Eenzaamheid wordt onderzocht door universiteiten, met bewezen interventies zoals AI-gestuurde pleisters en online mentoring.</p>
+  </section>  <section id="lokale">
+    <h2>Lokale initiatieven</h2>
+    <ul>
+      <li><a href="#">Movisie Verbetertool Eenzaamheid</a></li>
+      <li><a href="#">Hoplr – Buurtcommunity in Nederland</a></li>
+      <li><a href="#">Lokaal buurtcafé, taalcafé of meetup</a></li>
+    </ul>
+  </section>  <section id="getuigenissen">
+    <h2>Getuigenissen</h2>
+    <blockquote>
+      “Dankzij de lokale wandelgroep in Tilburg voel ik me eindelijk gehoord en gezien.” – Bryan
+    </blockquote>
+  </section>  <section id="agenda">
+    <h2>Lokale agenda</h2>
+    <p>Bekijk hier aankomende activiteiten in jouw regio: wandelingen, taalcafés, DnD‑groepen, etc.</p>
+  </section>  <section id="contact">
+    <h2>Contact / Aanmelden</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="naam" placeholder="Naam" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="bericht" placeholder="Jouw bericht..." rows="4" required></textarea>
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+</main><footer>
+  <p>© 2025 FIGHT Loneliness – Samen tegen eenzaamheid</p>
+</footer><script>
+  const langs = ['nl','en','ja'];
+  langs.forEach(l => {
+    document.getElementById('kl_' + l).onclick = () => {
+      langs.forEach(x => {
+        document.querySelectorAll('.lang-' + x).forEach(el => el.classList.remove('active'));
+        document.getElementById('kl_' + x).classList.remove('lang-active');
+      });
+      document.querySelectorAll('.lang-' + l).forEach(el => el.classList.add('active'));
+      document.getElementById('kl_' + l).classList.add('lang-active');
+    };
+  });
+</script></body>
+</html> html><html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIGHT Loneliness</title>
+  <meta name="description" content="FIGHT Loneliness – Tips, tools en community tegen eenzaamheid in NL.">
+  <style>
     body { margin:0; font-family: Arial, sans-serif; line-height:1.6; color:#333; }
     img { max-width:100%; display:block; }
     a { color:#0066cc; text-decoration:none; }
