@@ -52,6 +52,90 @@
 </header>
 <header class="hero lang-en">
   <div>
+    <h1>FIGHT Loneliness</h1>
+    <p>Tips, tools and community to fight loneliness.</p>
+    <a href="#tips" class="cta">Discover tips</a>
+  </div>
+</header>
+<header class="hero lang-ja">
+  <div>
+    <h1>孤独を克服しよう</h1>
+    <p>孤独に立ち向かうためのヒント、ツール、コミュニティ。</p>
+    <a href="#tips" class="cta">ヒントを見る</a>
+  </div>
+</header><main>
+  <section id="waarom">
+    <h2>Waarom eenzaamheid aanpakken?</h2>
+    <p class="lang-nl active">Eenzaamheid heeft grote impact op gezondheid en welzijn. Deze site biedt oplossingen.</p>
+    <p class="lang-en">Loneliness greatly affects health and wellbeing. This site offers solutions.</p>
+    <p class="lang-ja">孤独は健康と幸福に大きな影響を与えます。このサイトでは解決策をご紹介します。</p>
+  </section>  <section id="tips">
+    <h2>Tips</h2>
+    <div class="tips-grid">
+      <article>
+        <h3>1. Begin klein</h3>
+        <p>Stuur een berichtje naar een oud‑collega of buurman om weer contact te leggen.</p>
+      </article>
+      <article>
+        <h3>2. Sluit je aan</h3>
+        <p>Word lid van een sportclub, buurtgroep (Hoplr, Buurtwijs) of taalcafé.</p>
+      </article>
+      <article>
+        <h3>3. Vrijwilligerswerk</h3>
+        <p>Helpen geeft voldoening én verbindt je met anderen.</p>
+      </article>
+      <article>
+        <h3>4. Gespreksstarters</h3>
+        <p>Vraagtips: “Hoe was je dag?”, “Wat bezighoudt jou nu?”.</p>
+      </article>
+    </div>
+  </section>  <section id="wetenschap">
+    <h2>Wetenschap</h2>
+    <p>Eenzaamheid wordt onderzocht door universiteiten, met bewezen interventies zoals AI-gestuurde pleisters en online mentoring.</p>
+  </section>  <section id="lokale">
+    <h2>Lokale initiatieven</h2>
+    <ul>
+      <li><a href="#">Movisie Verbetertool Eenzaamheid</a></li>
+      <li><a href="#">Hoplr – Buurtcommunity in Nederland</a></li>
+      <li><a href="#">Lokaal buurtcafé, taalcafé of meetup</a></li>
+    </ul>
+  </section>  <section id="getuigenissen">
+    <h2>Getuigenissen</h2>
+    <blockquote>
+      “Dankzij de lokale wandelgroep in Tilburg voel ik me eindelijk gehoord en gezien.” – Bryan
+    </blockquote>
+  </section>  <section id="agenda">
+    <h2>Lokale agenda</h2>
+    <p>Bekijk hier aankomende activiteiten in jouw regio: wandelingen, taalcafés, DnD‑groepen, etc.</p>
+  </section>  <section id="contact">
+    <h2>Contact / Aanmelden</h2>
+    <form class="contact-form" action="#" method="post">
+      <input type="text" name="naam" placeholder="Naam" required>
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="bericht" placeholder="Jouw bericht..." rows="4" required></textarea>
+      <button type="submit">Verstuur</button>
+    </form>
+  </section>
+</main><footer>
+  <p>© 2025 FIGHT Loneliness – Samen tegen eenzaamheid</p>
+</footer><script>
+  const langs = ['nl','en','ja'];
+  langs.forEach(l => {
+    document.getElementById('kl_' + l).onclick = () => {
+      langs.forEach(x => {
+        document.querySelectorAll('.lang-' + x).forEach(el => el.classList.remove('active'));
+        document.getElementById('kl_' + x).classList.remove('lang-active');
+      });
+      document.querySelectorAll('.lang-' + l).forEach(el => el.classList.add('active'));
+      document.getElementById('kl_' + l).classList.add('lang-active');
+    };
+  });
+</script></body>
+</html> lang="nl">    <a href="#tips" class="cta">Ontdek tips</a>
+  </div>
+</header>
+<header class="hero lang-en">
+  <div>
     <h1>F html><html lang="en">
 <head>
   <meta charset="UTF-8" />
