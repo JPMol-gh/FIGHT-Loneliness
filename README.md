@@ -1,4 +1,58 @@
-<!DOCTYPE html><html lang="en">
+<!DOCTYPE html><html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FIGHT Loneliness</title>
+  <meta name="description" content="FIGHT Loneliness – Tips, tools en community tegen eenzaamheid in NL.">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; line-height:1.6; color:#333; }
+    img { max-width:100%; display:block; }
+    a { color:#0066cc; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    nav { display:flex; justify-content:space-between; align-items:center; padding:1rem; background:#f8f8f8; box-shadow:0 2px 5px rgba(0,0,0,0.1); position:sticky; top:0; z-index:100; }
+    nav .menu { display:flex; gap:1rem; }
+    nav .lang button { margin-left:0.5rem; }
+    .lang-active { font-weight:bold; }
+    .hero { display:flex; align-items:center; justify-content:center; background:#e0f7fa; padding:4rem 1rem; text-align:center; }
+    .hero h1 { font-size:2.5rem; margin-bottom:0.5rem; }
+    .hero p { font-size:1.2rem; margin-bottom:1rem; }
+    .hero a.cta { display:inline-block; background:#00796b; color:#fff; padding:0.75rem 1.5rem; border-radius:4px; }
+    main { max-width:960px; margin:2rem auto; padding:0 1rem; }
+    section { margin-bottom:3rem; }
+    section h2 { border-bottom:2px solid #00796b; padding-bottom:0.5rem; margin-bottom:1rem; }
+    .tips-grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:1.5rem; }
+    footer { background:#f1f1f1; padding:2rem 1rem; text-align:center; }
+    .contact-form { max-width:600px; margin:0 auto; display:flex; flex-direction:column; gap:1rem; }
+    .lang-nl, .lang-en, .lang-ja { display:none; }
+    .lang-nl.active, .lang-en.active, .lang-ja.active { display:block; }
+  </style>
+</head>
+<body><nav>
+  <div class="logo">🌟 FIGHT Loneliness</div>
+  <div class="menu">
+    <a href="#waarom">Home</a>
+    <a href="#tips">Tips</a>
+    <a href="#wetenschap">Wetenschap</a>
+    <a href="#lokale">Lokale initiatieven</a>
+    <a href="#getuigenissen">Getuigenissen</a>
+    <a href="#agenda">Agenda</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="lang">
+    <button id="kl_nl" class="lang-active">NL</button>
+    <button id="kl_en">EN</button>
+    <button id="kl_ja">JA</button>
+  </div>
+</nav><header class="hero lang-nl active">
+  <div>
+    <h1>FIGHT Eenzaamheid</h1>
+    <p>Tips, tools en community om eenzaamheid te bestrijden.</p>
+    <a href="#tips" class="cta">Ontdek tips</a>
+  </div>
+</header>
+<header class="hero lang-en">
+  <div>
+    <h1>F html><html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
