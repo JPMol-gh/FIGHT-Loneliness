@@ -1,4 +1,70 @@
-
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FIGHT Loneliness</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9fc;
+      color: #333;
+    }
+    header {
+      background: #ff8c42;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 2rem;
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+    .tip {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .tip i {
+      font-size: 2rem;
+      color: #ff8c42;
+    }
+    .tip-content {
+      flex: 1;
+    }
+    .jp {
+      color: #777;
+      margin-bottom: 0.5rem;
+    }
+    .bonus {
+      background: #f0f8ff;
+      padding: 1rem;
+      border-left: 5px solid #00aaff;
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🧡 FIGHT Loneliness</h1>
+    <p>Tips Against Loneliness / 孤独に対するヒント</p>
+  </header>
+  <section>
+    <div class="tip">
+      <i class="fas fa-comments"></i>
+      <div class="tip-content">
+        <h2>1. Connect with Others | 他人とつながる
 <!DOCTYPE html>
 <html lang="en">
 <head>
